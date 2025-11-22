@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashraf Saber | Graphic Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                DEFAULT: '#6366f1', // Indigo-500
+                dark: '#4338ca',
+                accent: '#818cf8',
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-neutral-950 text-white antialiased selection:bg-brand selection:text-white">
+    <div id="root"></div>
+  </body>
+</html>
